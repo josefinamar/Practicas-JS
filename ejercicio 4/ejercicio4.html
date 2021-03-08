@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ejercicio 04</title>
+  </head>
+  <body>
+    <form name="f1">
+      <table style="padding: 15px;" bgcolor="#85C1E9">
+        <caption style="margin: 10px;">
+          CALCULAR INTERES DE INVERSIÓN
+        </caption>
+        <tr>
+          <td align="right">Monto a invertir:</td>
+          <td><input type="text" name="monto" size="4" /></td>
+          <td colspan="2" align="center">
+            <input
+              type="button"
+              value="Calcular interes"
+              onclick="calcularIntereses(form)"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="6"><hr /></td>
+        </tr>
+        <tr>
+          <td align="right">Interes mensual :</td>
+          <td><input type="text" name="iMensual" size="5" disabled /></td>
+          <td align="right">Interes trimestral :</td>
+          <td><input type="text" name="iTrimestral" size="5" disabled /></td>
+        </tr>
+      </table>
+    </form>
+
+    <script
+      language="JavaScript"
+      type="text/javascript"
+      src="ejercicio4.js"
+    ></script>
+  </body>
+</html>
